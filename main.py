@@ -41,7 +41,7 @@ if __name__ == "__main__":
                 word_list.append(line.strip())
     else:
         print(f"El fichero {filename} no existe")
-        word_list = ["ravenclaw", "gryffindor", "slytherin", "hufflepuff"]
+        word_list = ["Ravenclaw", "Gryffindor", "Slytherin", "Hufflepuff"]
 
     if remove_duplicates:
         word_list = remove_duplicates_from_list(word_list)
